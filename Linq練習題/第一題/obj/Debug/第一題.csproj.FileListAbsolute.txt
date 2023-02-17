@@ -1,0 +1,16 @@
+C:\Users\陳柏翰\Desktop\visual stdio專案\Linq練習題\第一題\bin\Debug\第一題.exe.config
+C:\Users\陳柏翰\Desktop\visual stdio專案\Linq練習題\第一題\bin\Debug\第一題.exe
+C:\Users\陳柏翰\Desktop\visual stdio專案\Linq練習題\第一題\bin\Debug\第一題.pdb
+C:\Users\陳柏翰\Desktop\visual stdio專案\Linq練習題\第一題\obj\Debug\第一題.csproj.AssemblyReference.cache
+C:\Users\陳柏翰\Desktop\visual stdio專案\Linq練習題\第一題\obj\Debug\第一題.csproj.SuggestedBindingRedirects.cache
+C:\Users\陳柏翰\Desktop\visual stdio專案\Linq練習題\第一題\obj\Debug\第一題.csproj.CoreCompileInputs.cache
+C:\Users\陳柏翰\Desktop\visual stdio專案\Linq練習題\第一題\obj\Debug\第一題.exe
+C:\Users\陳柏翰\Desktop\visual stdio專案\Linq練習題\第一題\obj\Debug\第一題.pdb
+C:\Users\dan\Downloads\Linq練習題\第一題\bin\Debug\第一題.exe.config
+C:\Users\dan\Downloads\Linq練習題\第一題\bin\Debug\第一題.exe
+C:\Users\dan\Downloads\Linq練習題\第一題\bin\Debug\第一題.pdb
+C:\Users\dan\Downloads\Linq練習題\第一題\obj\Debug\第一題.csproj.AssemblyReference.cache
+C:\Users\dan\Downloads\Linq練習題\第一題\obj\Debug\第一題.csproj.SuggestedBindingRedirects.cache
+C:\Users\dan\Downloads\Linq練習題\第一題\obj\Debug\第一題.csproj.CoreCompileInputs.cache
+C:\Users\dan\Downloads\Linq練習題\第一題\obj\Debug\第一題.exe
+C:\Users\dan\Downloads\Linq練習題\第一題\obj\Debug\第一題.pdb

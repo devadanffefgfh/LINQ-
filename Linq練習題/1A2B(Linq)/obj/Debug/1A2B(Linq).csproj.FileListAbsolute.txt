@@ -1,0 +1,8 @@
+D:\visual studio專案\Linq練習題\1A2B(Linq)\bin\Debug\1A2B(Linq).exe.config
+D:\visual studio專案\Linq練習題\1A2B(Linq)\bin\Debug\1A2B(Linq).exe
+D:\visual studio專案\Linq練習題\1A2B(Linq)\bin\Debug\1A2B(Linq).pdb
+D:\visual studio專案\Linq練習題\1A2B(Linq)\obj\Debug\1A2B(Linq).csproj.AssemblyReference.cache
+D:\visual studio專案\Linq練習題\1A2B(Linq)\obj\Debug\1A2B(Linq).csproj.SuggestedBindingRedirects.cache
+D:\visual studio專案\Linq練習題\1A2B(Linq)\obj\Debug\1A2B(Linq).csproj.CoreCompileInputs.cache
+D:\visual studio專案\Linq練習題\1A2B(Linq)\obj\Debug\1A2B(Linq).exe
+D:\visual studio專案\Linq練習題\1A2B(Linq)\obj\Debug\1A2B(Linq).pdb
