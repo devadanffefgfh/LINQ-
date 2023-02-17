@@ -68,10 +68,26 @@ namespace 第一題
                 double average_count = product.Average(x => x.productCount);
                 Console.WriteLine($"計算所有商品的平均數量: {average_count:N2}");
                 //decimal max_expensive = product.Max(x => x.productPrice);
-                var maxExpensiveProduct = product.OrderByDescending(x => x.productPrice).First();
-                Console.WriteLine($"找出哪一項商品最貴: {maxExpensiveProduct.productName}");
-                var minExpensiveProduct = product.OrderBy(x => x.productPrice).First();
-                Console.WriteLine($"找出哪一項商品最便宜: {minExpensiveProduct.productName}");
+
+                Console.WriteLine($"找出哪一項商品最貴: ");
+                var maxPrice = product.Max(x => x.productPrice);
+                var maxExpensiveProduct = product.Where(x => x.productPrice == maxPrice);
+                foreach (var item in maxExpensiveProduct)
+                {
+                    Console.Write($"{item.productName} ");
+                }
+                Console.WriteLine();
+
+                Console.WriteLine($"找出哪一項商品最便宜: ");
+                var minPrice = product.Min(x => x.productPrice);
+                var minCheapProduct = product.Where(x => x.productPrice == minPrice);
+                foreach (var item in minCheapProduct)
+                {
+                    Console.Write($"{item.productName} ");
+                }
+                Console.WriteLine();
+                //var minExpensiveProduct = product.OrderBy(x => x.productPrice).First();
+              
                
                 var threeC_product=product.Where(x=>x.productClassify=="3C");
                 decimal sumprice = 0m;
@@ -87,7 +103,7 @@ namespace 第一題
                 {
                     sumprice+= (item.productPrice * item.productCount);
                 }
-                Console.WriteLine($"計算產品類別為飲料及食品的商品價格: {sumprice}");
+                Console.WriteLine($"計算產品類別為飲料及食品的商品總價: {sumprice}");
 
                 Console.WriteLine($"找出所有商品類別為食品，而且商品數量大於 100 的商品: ");
                 var Product_100_Food = product.Where(x => x.productClassify == "食品").Where(x => x.productCount >= 100);
@@ -116,7 +132,7 @@ namespace 第一題
                     Console.Write(item.productName+",");
                 }
                 Console.Write("\n");
-                Console.WriteLine("------------------------------------------------------");
+                Console.WriteLine("--------------------------------------------------------");
                 Console.WriteLine($"依照商品數量由低到高排序: ");
                 var LowToHightCount = product.OrderBy(x => x.productCount);
                 foreach(var item in LowToHightCount) 
